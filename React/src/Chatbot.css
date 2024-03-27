@@ -1,0 +1,115 @@
+.chatbot-container {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}
+
+.question-bubble {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    max-width: 70%;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+
+.answer-bubble {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    max-width: 70%;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+
+.chat-entry {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-section {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-bottom input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fixed-bottom button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.fixed-bottom button:hover {
+    background-color: #45a049;
+}
+
+.fixed-bottom.input-section {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .fixed-bottom.input-section input[type="text"] {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+  }
+  
+  .fixed-bottom.input-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Add margin between input and button */
+  }
+  
+  .fixed-bottom.input-section button:hover {
+    background-color: #45a049;
+  }
+  
